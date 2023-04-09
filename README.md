@@ -1,19 +1,9 @@
+This is a chat server written with HTML, CSS, and Javascript. It also uses NodeJS and Socket.io
 
-# CSE330
-Name: Jason Zhan
-Id: 510509
-github: jason-zhxn
-
-Name: Annabel Lee
-Id: 508707
-github: annabel-l
+- You can choose a nickname and start chatting! Users must create and join chat servers to recieve and send messagse to others
+- creators of chat rooms can kick or ban users from their chat rooms. Room creators can also grant moderator priveliges to other users and send a web alert
+  to users on the chat
+- there is no database and user info/messages is stored temporarily in the backend javascript. Reloading every instance will thus destroy all chat rooms      and user info.
 
 
-Creative Portion:
-
-We implemented a chat alert system where the owner/creator of a chat can send an alert to everyone currently on his chat! This gives the 
-chat owner more moderator privileges as he can alert his current chat users of things at anytime.
-
-We also implemented a function where owners/creators of a chat can grant moderator privileges to other usernames for that specific chat. Whoever the owner decides to grant priveleges to for a certain chat will also gain access to kicking, banning, alerting, and privelege granting for that specific chat.
-
-
+PS: in order to run the project, you must have NodeJs and Socket.io installed on your system and have NodeJS modules in the directory parallel to the client.html script. You must then run "node <path to chat-server.js>" in terminal to activate the server before running the client.html script.
